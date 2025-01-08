@@ -22,7 +22,7 @@ public class CrudJavaSwing extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Painel superior para entradas
+        // Painel superior para entradass
         JPanel inputPanel = new JPanel(new GridLayout(3, 2));
         inputPanel.add(new JLabel("ID (para atualizar/deletar):"));
         idField = new JTextField();
