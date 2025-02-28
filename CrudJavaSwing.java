@@ -10,7 +10,7 @@ public class CrudJavaSwing extends JFrame {
     private JTextField nomeField, emailField, idField;
     private JTextArea outputArea;
 
-    // Configurações do banco
+    // Configurações do banco.
     private static final String URL = "jdbc:mysql://localhost:3306/crud_java?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
     private static final String PASSWORD = "maximus2011@MF";
